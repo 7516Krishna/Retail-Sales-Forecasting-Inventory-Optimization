@@ -1,0 +1,38 @@
+# Virtual Environment
+venv/
+.env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files (large / sensitive)
+data/raw/
+*.csv
+
+# Outputs (generated files)
+outputs/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/
+
+# Model files (if added later)
+models/
+*.pkl
+*.joblib
